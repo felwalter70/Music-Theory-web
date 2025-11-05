@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="imgs/ClaveDeFa.svg">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+        <title>Piano online</title>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <p>Music Theory</p>
+                <button id="navAbrir" onclick="abrirNav()">
+                    <img src="imgs/menu-svgrepo-com.svg" height="40px">
+                </button>
+                <nav id="nav">
+                    <ul>
+                        <li><button id="navFechar" onclick="fecharNav()"><img src="imgs/close-svgrepo-com.svg" height="40px"></button></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="piano.html" class="linkAtual">Piano</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                    <div>
+                        <img src="imgs/FromZero.jpeg" alt="" id="AM">
+                        <img src="imgs/Ten.jpg" alt="">
+                    </div>
+                </nav>
+            </header>
+            <main>
+                <article class="title">
+                    <h1>Piano online</h1>
+                    <h2>Use o teclado ou clique nas teclas</h2>
+                </article>
+                <section id="piano">
+                    <div class="sustenido">
+                        <div class="teclaBranca key" data-nota="C3">
+                            <p>Dó</p>
+                        </div>
+                        <div class="teclaPreta key" data-nota="C3s">
+                            <p>Dó#</p>
+                        </div>
+                    </div>
+                    <div class="sustenido">
+                        <div class="teclaBranca key" data-nota="D3">
+                            <p>Ré</p>
+                        </div>
+                        <div class="teclaPreta key" data-nota="D3s">
+                            <p>Ré#</p>
+                        </div>
+                    </div>
+                    <div class="teclaBranca key" data-nota="E3">
+                        <p>Mi</p>
+                    </div>
+                    <div class="sustenido">
+                        <div class="teclaBranca key" data-nota="F3">
+                            <p>Fá</p>
+                        </div>
+                        <div class="teclaPreta key" data-nota="F3s">
+                            <p>Fá#</p>
+                        </div>
+                    </div>
+                    <div class="sustenido">
+                        <div class="teclaBranca key" data-nota="G3">
+                            <p>Sol</p>
+                        </div>
+                        <div class="teclaPreta key" data-nota="G3s">
+                            <p>Sol#</p>
+                        </div>
+                    </div>
+                    <div class="sustenido">
+                        <div class="teclaBranca key" data-nota="A3">
+                            <p>Lá</p>
+                        </div>
+                        <div class="teclaPreta key" data-nota="A3s">
+                            <p>Lá#</p>
+                        </div>
+                    </div>
+                    <div class="teclaBranca key" data-nota="B3">
+                        <p>Si</p>
+                    </div>
+                    <div class="sustenido">
+                        <div class="teclaBranca key" data-nota="C4">
+                            <p>Dó</p>
+                        </div>
+                        <div class="teclaPreta key" data-nota="C4s">
+                            <p>Dó#</p>
+                        </div>
+                    </div>
+                    <div class="sustenido">
+                        <div class="teclaBranca key" data-nota="D4">
+                            <p>Ré</p>
+                        </div>
+                        <div class="teclaPreta key" data-nota="D4s">
+                            <p>Ré#</p>
+                        </div>
+                    </div>
+                    <div class="teclaBranca key" data-nota="E4">
+                        <p>Mi</p>
+                    </div>
+                    <div class="sustenido">
+                        <div class="teclaBranca key" data-nota="F4">
+                            <p>Fá</p>
+                        </div>
+                        <div class="teclaPreta key" data-nota="F4s">
+                            <p>Fá#</p>
+                        </div>
+                    </div>
+                    <div class="sustenido">
+                        <div class="teclaBranca key" data-nota="G4">
+                            <p>Sol</p>
+                        </div>
+                        <div class="teclaPreta" data-nota="G4s">
+                            <p>Sol#</p>
+                        </div>
+                    </div>
+                    <div class="sustenido">
+                        <div class="teclaBranca key" data-nota="A4">
+                            <p>Lá</p>
+                        </div>
+                        <div class="teclaPreta key" data-nota="A4s">
+                            <p>Lá#</p>
+                        </div>
+                    </div>
+                    <div class="teclaBranca key" data-nota="B4">
+                        <p>Si</p>
+                    </div>
+                </section>
+                <section id="controlesPiano">
+                    <h2>Controles do piano</h2>
+                    <article>
+                        <ul>
+                            <li><p><strong>Z</strong> = <em>Dó3</em></p></li>
+                            <li><p><strong>S</strong> = <em>Dó#3</em></p></li>
+                            <li><p><strong>X</strong> = <em>Ré3</em></p></li>
+                            <li><p><strong>D</strong> = <em>Ré#3</em></p></li>
+                            <li><p><strong>C</strong> = <em>Mi3</em></p></li>
+                            <li><p><strong>V</strong> = <em>Fá3</em></p></li>
+                            <li><p><strong>G</strong> = <em>Fá#3</em></p></li>
+                            <li><p><strong>B</strong> = <em>Sol3</em></p></li>
+                            <li><p><strong>H</strong> = <em>Sol#3</em></p></li>
+                            <li><p><strong>N</strong> = <em>Lá3</em></p></li>
+                            <li><p><strong>J</strong> = <em>Lá#3</em></p></li>
+                            <li><p><strong>M</strong> = <em>Si3</em></p></li>
+                            <li><p><strong>,</strong> = <em>Dó4</em></p></li>
+                            <li><p><strong>L</strong> = <em>Dó#4</em></p></li>
+                            <li><p><strong>.</strong> = <em>Ré4</em></p></li>
+                            <li><p><strong>ç</strong> = <em>Ré#4</em></p></li>
+                            <li><p><strong>;</strong> = <em>Mi4</em></p></li>
+                            <li><p><strong>/</strong> = <em>Fá4</em></p></li>
+                            <li><p><strong>]</strong> = <em>Fá#4</em></p></li>
+                        </ul>
+                    </article>
+                </section>
+            </main>
+            <div id="img"></div>
+            <footer>
+                <p>© 2025, teoria musical descomplicada.</p>
+            </footer>
+        </div>
+        <script src="script.js" defer></script>
+    </body>
+</html>
