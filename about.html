@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="imgs/ClaveDeDo.png">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+        <title>About</title>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <p>Music Theory</p>
+                <button id="navAbrir" onclick="abrirNav()">
+                    <img src="imgs/menu-svgrepo-com.svg" height="40px">
+                </button>
+                <nav id="nav">
+                    <ul>
+                        <li><button id="navFechar" onclick="fecharNav()"><img src="imgs/close-svgrepo-com.svg" height="40px"></button></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="piano.html">Piano</a></li>
+                        <li><a href="about.html" class="linkAtual">About</a></li>
+                    </ul>
+                    <div>
+                        <img src="imgs/FavouriteWorstNightmare.jpg" alt="" id="AM">
+                        <img src="imgs/AcusticoCapital.jpg" alt="">
+                    </div>
+                </nav>
+            </header>
+            <main>
+                <article class="title">
+                    <h1>Sobre o site</h1>
+                </article>
+                <section class="principal">
+                    <article>
+                        <h2>Sobre o autor</h2>
+                        <p>Olá, meu nome é Felipe Alves Walter e atualmente estudo no Cefet-MG cursando informática, fiz esse site para um trabalho da disciplina de laboratório de programação web (LPW). Faz um tempo que tenho me interessado bastante sobre teoria musical e resolvi aplicar o pouco que sabia da mesma para temtar criar um site interessante e que tivesse informações pertinentes sobre o básico do assunto.</p>
+                    </article>
+                    <article class="title">
+                        <h2 id="Biohazard">Página Biohazard</h2>
+                    </article>
+                    <article class="posLP">
+                        <h2>Comprehensive layout</h2>
+                        <p>Um Comprehensive layout extremamente básico foi feito no começo do desenvolvimento do site, tendo o intuito de apenas dividir as áreas e organizar a responsividade. No fim, a divisão das áreas ficaram completamente diferentes das planejadas no comprehensive layout.</p>
+                        <ul class="imgsHazard">
+                            <li><img src="imgs/ComprehensiveLayout.png" alt=""></li>
+                        </ul>
+                    </article>
+                    <article class="posLP">
+                        <h2>Easter eggs</h2>
+                        <p>Alguns easter eggs foram colocados dentro da página, alguns mais escondidos, outros menos. O primeiro foi no toca discos, no qual quando o disco é clicado a música Faint do Linkin Park começa a tocar.</p>
+                        <ul class="imgsHazard">
+                            <li><img src="imgs/EasterEgg1.png" alt=""></li>
+                            <li><img src="imgs/EasterEgg1code.png" alt=""></li>
+                        </ul>
+                        <p>O segundo easter egg a ser adicionado foi as capas de álbum nas barras de navegação para celular, cada página possui duas capas e todas são diferentes.</p>
+                        <ul class="imgsHazard">
+                            <li><img src="imgs/EasterEgg2.png" alt=""></li>
+                            <li><img src="imgs/EasterEgg2code.png" alt=""></li>
+                        </ul>
+                        <p>Por fim, o último easter egg é o de que todas as páginas possuem uma clave musical diferente como ícone, a primeira possui a clave de sol, a segunda possui a clave de fá e a terceira possui a clave de dó.</p>
+                        <ul class="imgsHazard">
+                            <li><img src="imgs/EasterEgg3.png" alt=""></li>
+                            <li><img src="imgs/EasterEgg3code.png" alt=""></li>
+                        </ul>
+                    </article>
+                    <article class="posLP">
+                        <h2>Interações no site</h2>
+                        <p>O site em geral tem bastantes interações, na primeira página, além do toca discos, todas as notas/acordes dos exemplos são clicáveis e estão em verde.</p>
+                        <ul class="imgsHazard">
+                            <li><img src="imgs/Interacao1.png" alt=""></li>
+                            <li><img src="imgs/Interacao1code.png" alt=""></li>
+                        </ul>
+                        <p>No entanto, a interação principal é na segunda página, que possui um piano online. O funcionamento do piano e das outras interações que envolvem áudio estão atreladas á função <code><strong>somNota()</strong></code>, que varia a nota tocada de acordo com o parâmetro recebido.</p>
+                        <ul class="imgsHazard">
+                            <li><img src="imgs/Interacao2.png" alt=""></li>
+                            <li><img src="imgs/Interacao2code.png" alt=""></li>
+                        </ul>
+                    </article>
+                    <article class="posLP">
+                        <h2>Créditos</h2>
+                        <p>Aqui estão os créditos dos recursos utilizados de outros sites</p>
+                        <ul id="creditos">
+                            <li><p>As <strong>capas</strong> dos <em>álbuns</em> foram retiradas do <a href="https://open.spotify.com/intl-pt"><strong>spotify</strong></a> e da <a href="https://pt.wikipedia.org/wiki/Wikip%C3%A9dia:P%C3%A1gina_principal"><strong>wikipedia</strong></a>.</p></li>
+                            <li><p>Os <strong>ícones</strong> da <em>barra de navegação</em> foram retirados do site <a href="https://www.svgrepo.com/"><strong>svgrepo</strong></a>.</p></li>
+                            <li><p>Os <strong>gráficos</strong> das <em>ondas sonoras</em> foram feitas no <a href="https://www.geogebra.org/?lang=pt_BR"><strong>Geogebra</strong></a>.</p></li>
+                            <li><p>Os <strong>ícones</strong> das <em>páginas</em> foram retiradas de <a href="https://stock.adobe.com/br/search?k=%22c+clef%22"><strong>Adobe stock</strong></a> e <a href="https://br.vexels.com/png-svg/previsualizar/143585/clave-de-fa"><strong>Vexels</strong></a>.</p></li>
+                            
+                        </ul>
+                    </article>
+                </section>
+            </main>
+            <div id="img"></div>
+            <footer>
+                <p>© 2025, teoria musical descomplicada.</p>
+            </footer>
+        </div>
+        <script src="script.js" defer></script>
+    </body>
+</html>
